@@ -77,7 +77,7 @@ Jika nanti ingin menambah fitur tersebut, bisa dibicarakan dulu.
 Jika butuh bantuan:
 
 📱 WhatsApp  
-👉 https://wa.me/6289612695912
+👉 https://wa.me/6281263130957
 
 💬 Discord  
 👉 https://discord.gg/BmmMxSP3wM  
