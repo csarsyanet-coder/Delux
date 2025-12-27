@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delux Cloud - Premium Minecraft Hosting</title>
+
+  <!-- Favicon (sesuaikan kalau path kamu beda) -->
+  <link rel="icon" type="image/png" href="/image/favicon.png" />
+
+  <!-- React PRODUCTION -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts & CSS -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body
+  oncontextmenu="return false;"
+  ondragstart="return false;"
+  onselectstart="return false;"
+  onkeydown="return disableKeys(event)"
+>
+  <div id="root"></div>
+
+  <!-- Script kecil buat ganggu klik kanan & shortcut DevTools basic -->
+  <script>
+    function disableKeys(e) {
+      // F12
+      if (e.key === "F12") {
+        e.preventDefault();
+        return false;
+      }
+      // Ctrl+Shift+I / J / C 
+      if (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key.toUpperCase())) {
+        e.preventDefault();
+        return false;
+      }
+      // Ctrl+U / S (View Source & Save)
+      if (e.ctrlKey && e.key.toUpperCase() === "U", "S") {
+        e.preventDefault();
+        return false;
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // Gambar nggak bisa di-drag / klik kanan
+      document.querySelectorAll("img").forEach((img) => {
+        img.setAttribute("draggable", "false");
+        img.addEventListener("contextmenu", (e) => e.preventDefault());
+      });
+    });
+  </script>
+
+  <!-- PAKAI HASIL OBFUSCATE -->
+  <script src="app.prod.js"></script>
+</body>
+</html>
