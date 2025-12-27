@@ -70,6 +70,7 @@ Kami masih menerima negosiasi 🙂
 - database
 - API
 - sistem pembayaran
+> Jika terjadi error setelah mengedit, itu di luar tanggung jawab kami
 
 Jika nanti ingin menambah fitur tersebut, bisa dibicarakan dulu.
 
