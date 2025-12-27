@@ -51,11 +51,7 @@ Mendapatkan:
 
 Kami masih menerima negosiasi 🙂
 
-- Paket 1 → minimal **Rp 160.000**
-- Paket 2 → minimal **Rp 150.000**
-- Paket 3 (Combo) → minimal **Rp 250.000**
-
-> Jika nego di bawah itu, mohon maaf tidak bisa —  
+> Jika nego di bawah batas nego, mohon maaf tidak bisa —  
 > karena sudah termasuk waktu pembuatan, desain, dan keamanan.
 
 ---
@@ -81,7 +77,7 @@ Jika nanti ingin menambah fitur tersebut, bisa dibicarakan dulu.
 Jika butuh bantuan:
 
 📱 WhatsApp  
-👉 081263130957  
+👉 https://wa.me/6289612695912
 
 💬 Discord  
 👉 https://discord.gg/BmmMxSP3wM  
